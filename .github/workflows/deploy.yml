@@ -17,4 +17,4 @@ jobs:
       - name: Push to HF
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://MaX45165:$HF_TOKEN@huggingface.co/spaces/MaX45165/my-portfolio-bot main
+        run: git push --force https://MaX4515:$HF_TOKEN@huggingface.co/spaces/MaX4515/my-portfolio-bot main
